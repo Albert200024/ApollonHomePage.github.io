@@ -1,0 +1,229 @@
+.opponent {
+    padding-left: 84px;
+    padding-right: 156px;
+}
+
+.opponent-sec-title {
+    padding-top: 98px;
+}
+
+.section-partner-slider-block {
+    position: relative;
+}
+
+.opponent-slide {
+    height: 100%;
+    width: 100%;
+}
+
+.partner-slider-item {
+    width: 30%;
+}
+.partner-slider {
+    height: 600px;
+    overflow: hidden;
+}
+
+.slider-oponent {
+    width: 30%;
+}
+
+.partner-slider-item {
+    width: 100%;
+}
+
+.opponent-slide .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+.partner-slider-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+    justify-content: center;
+    width: 100%;
+    height: 100%    ;
+    text-align: center;
+    font-size: 30px;
+    background: #ffffff;
+    border: 1px solid #d01d42;
+    border-radius: 10px;
+    box-shadow: 10px 10px 80px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+.partner_swiper_slider1 {
+    /* width: 35%; */
+}
+
+.partner-slider {
+    display: flex;
+    column-gap: 28px;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 156px;
+}
+
+.top-shadow {
+    position: absolute;
+    top: -4px;
+    z-index: 2;
+    width: 100%;
+    background: rgb(255,255,255);
+    background: linear-gradient(360deg, rgba(255, 255, 255, 0) 15.84%, rgba(255, 255, 255, 1) 68.89%);
+    height: 25%;
+}
+
+
+.bottom-shadow{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    background: rgb(255,255,255);
+    background: linear-gradient(360deg, rgba(255, 255, 255, 0) 15.84%, rgba(255, 255, 255, 1) 68.89%);
+    height: 25%;
+
+    bottom: -2px;
+    transform: rotate(180deg);
+}
+
+.partner-slider-item .text-block-partner{
+    display: none;
+}
+
+.partner-slider-item:hover .text-block-partner {
+    display: block;
+}
+
+.text-block-partner p{
+    font-size: 16px;
+}
+
+
+/*==================================================================== Media ====================================================================*/
+@media only screen and (min-width:1440px) and (max-width:1920px) {
+    .opponent {
+        padding-right: 50px;
+    }
+
+    .opponent-sec-title {
+        padding-top: 96px;
+    }
+}
+
+@media only screen and (min-width:1024px) and (max-width:1439px) {
+    .partner-slider{
+        height: 370px;
+        padding-left: 0;
+    }
+
+    .partner-slider-item img {
+        width: 130px;
+        height: 25px;
+    }
+
+    .opponent {
+        padding-left: 84px;
+        padding-right: 55px;
+    }
+
+    .partner-slider {
+        display: flex;
+        column-gap: 10px;
+    }
+
+    .partner-slider {
+        display: flex;
+        column-gap: 28px;
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 0;
+    }
+
+    .opponent-sec-title {
+        padding-top: 96px;
+    }
+
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    .partner-slider{
+        height: 320px;
+        padding-left: 0;
+        column-gap: 10px;
+    }
+
+    .opponent-sec-title {
+        padding-top: 64px;
+    }
+
+    opponent {
+        padding-left: 62px;
+        padding-right: 20px;
+    }
+
+    .partner-slider-item img {
+        width: 130px;
+        height: 25px;
+    }
+
+    .opponent {
+        padding-left: 84px;
+        padding-right: 0;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+      .partner_swiper_slider3 {
+          display: none;
+      }
+
+    .opponent {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .partner-slider {
+        padding-left: 1px;
+        padding-right: 1px;
+        column-gap: 10px;
+    }
+
+    .slider-oponent {
+        width: 47%;
+    }
+
+    .partner-slider-item img{
+        width: 55px;
+        height: 25px;
+    }
+
+    .opponent-sec-title {
+        padding-top: 32px;
+    }
+
+    .partner-slider {
+        height: 210px;
+        overflow: hidden;
+    }
+
+    .opponent-slider-none {
+        display: none;
+    }
+}
