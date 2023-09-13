@@ -9,16 +9,15 @@
 }
 
 .teams-slider {
-    width: 75%;
+    width: 80%;
     position: relative;
-    margin: auto;
+    padding-left: 78px;
 }
 
 .slider-btn-prev-teams {
     position: absolute;
-    left: -11%;
+    left: 0;
     top: 46%;
-
 }
 
 .slider-btn-next-teams{
@@ -57,6 +56,7 @@
 .slider_team_mobile_block {
     display: none;
 }
+
 /*==================================================================== Media ====================================================================*/
 @media only screen and (min-width:1440px) and (max-width:1770px) {
     .team-slide-item-div h6 {
@@ -88,16 +88,24 @@
     .section-title {
         font-size: 24px;
     }
+
+    .teams-sec-title {
+        padding-top: 96px;
+        padding-bottom: 35px;
+    }
+
+    .teams-slider {
+       padding-left: 56px;
+
+    }
 }
 
 @media only screen and (min-width:768px) and (max-width:1023px) {
     .team-slide-item-div h6 {
-        color: #D01D42;
-        font-family: Montserrat;
-        font-size: 10px;
+       color: #D01D42;
+       font-family: Montserrat;
+       font-size: 10px;
     }
-
-
     .teams-slider {
         width: 80%;
     }

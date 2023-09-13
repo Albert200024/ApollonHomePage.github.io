@@ -21,6 +21,11 @@ input{
     height: 261px;
 }
 
+#map iframe{
+    width: 100%;
+    height: 100%;
+}
+
 footer{
     background: #363636;
     position: relative;
@@ -35,7 +40,6 @@ footer{
     z-index: 5;
     padding: 114px 348px 0;
 }
-
 
 .list-page {
     display: flex;
@@ -109,7 +113,6 @@ footer{
     font-family: 'Montserrat', sans-serif;
     border: 0.771849px solid #FFFFFF;
     border-radius: 7px;
-
     font-style: normal;
     font-weight: 500;
     font-size: 20.5827px;
@@ -120,8 +123,6 @@ footer{
     width: 100%;
     outline: 0.771849px solid #FFFFFF;
 }
-
-
 
 #confirm {
     appearance: none;
@@ -190,6 +191,7 @@ footer{
     font-weight: 500;
     line-height: normal;
 }
+
 .text-img {
     display: flex;
     align-items: center;
@@ -298,7 +300,7 @@ footer{
     }
 
     .feedBack-block p {
-     line-height: 20px;
+        line-height: 20px;
         font-size: 16px;
     }
 
@@ -328,7 +330,6 @@ footer{
     }
 
     .feedBack-block-input-line input[type=submit] {
-
         border-radius: 6px;
         padding: 12px 14px;
         font-size: 16px;
@@ -395,6 +396,7 @@ footer{
         padding-top: 15px;
         padding-bottom: 24px;
     }
+
     .social-list a {
         display: block;
         width: 16px;
@@ -720,5 +722,4 @@ footer{
         height: 5.76px;
         flex-shrink: 0;
     }
-
 }

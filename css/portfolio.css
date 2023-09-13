@@ -1,5 +1,6 @@
 .portfolio {
     padding-left: 84px;
+    padding-right: 140px;
 }
 
 .portfolio-sec-title {
@@ -53,7 +54,6 @@
 .portfolio_slider_block {
     display: flex;
     column-gap: 16px;
-    /*padding-right: 156px;*/
     position: relative;
     height: 463px;
 }
@@ -62,8 +62,21 @@
     margin-top: 24px;
 }
 
-.portfolio-slider-only {
-    width: 22.5%;
+.portfolio-slider-only-item a{
+    height: 350px;
+    display: block;
+}
+
+.portfolio-slider-only-item .portfolio-slider-fon{
+    height: 350px;
+    top: 0;
+    align-items: flex-end;
+    padding: 50px 50px 30px;
+}
+
+.portfolio-slider-only-item a img {
+    width: 100%;
+    height: 100%;
 }
 
 .portfolio_slider_only_btn {
@@ -119,10 +132,17 @@
 }
 
 .portfolio-slider{
-    width: 400px;
     overflow: hidden;
     height: 100%;
     border-radius: 10px;
+}
+
+.portfolio-slider-width1 {
+    width: 25%;
+}
+
+.portfolio-slider-width2 {
+    width: 44%;
 }
 
 .portfolio-slider-wide{
@@ -155,7 +175,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    /*justify-content: flex-start;*/
 }
 
 .slider-portfolio-mobile {
@@ -188,14 +207,14 @@
 }
 
 
-.portfolio-slider .swiper-slide a {
+.portfolio-slider-a {
     display: block;
     width: 100%;
     height: 100%;
     border-radius: 10px;
 }
 
-.portfolio-slider .swiper-slide img {
+.portfolio-slider-a img {
     display: block;
     width: 100%;
     height: 100%;
@@ -244,7 +263,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    /*justify-content: flex-start;*/
 }
 
 .portfolio-slider-fon-line {
@@ -272,6 +290,7 @@
 .slider_portfolio_mobile {
       display: none;
 }
+
 /*==================================================================== Media ====================================================================*/
 @media only screen and (min-width:1920px) and (max-width:2140px) {
     .portfolio-slider-line2 {
@@ -300,8 +319,13 @@
         font-size: 22px;
     }
 
-    .portfolio-slider {
-        width: 276px;
+    .portfolio {
+        padding-left: 84px;
+        padding-right: 96px;
+    }
+
+    .portfolio-slider-btn-block {
+        padding-left: 25px;
     }
 
     .portfolio-slider-wide {
@@ -311,9 +335,17 @@
     .portfolio_slider_block {
         display: flex;
         column-gap: 16px;
-        /* padding-right: 156px; */
         position: relative;
-        height: 350px;
+        height: 390px;
+    }
+
+    .portfolio-slider-only-item a, .portfolio-slider-only-item .portfolio-slider-fon  {
+        height: 285px;
+    }
+    
+    .portfolio-slider-only-item .portfolio-slider-fon  {
+        align-items: flex-end;
+        padding-bottom: 25px;
     }
 
     .portfolio-sec-title {
@@ -327,8 +359,18 @@
 
     .title-slide-portfolio {
         color: #FFF;
-        font-size: 22px;
+        font-size: 19px;
     }
+
+    .text-slide-portfolio {
+
+        font-size: 14px;
+    }
+
+    .portfolio-slider-line1 {
+        top: -15px;
+    }
+
     .portfolio-slider-fon {
        padding-bottom: 0;
     }
@@ -347,7 +389,6 @@
         height: 44px;
     }
 
-
     .portfolio-slider-line2 {
         position: absolute;
         top: 70px;
@@ -363,10 +404,23 @@
         width: 22%;
     }
 
+    .portfolio-slider-only-item .portfolio-slider-fon {
+        padding: 0px 20px 18px;
+    }
+
+    .portfolio-slider-only-item .portfolio-slider-fon ,
+    .portfolio-slider-only-item a {
+        height: 176px;
+    }
+
+    .portfolio {
+        padding-left: 84px;
+        padding-right: 15px;
+    }
+
     .portfolio-slider-fon {
         padding-bottom: 0;
         height: 110px;
-
     }
 
     .portfolio-slider-fon {
@@ -393,8 +447,8 @@
         font-size: 10px;
     }
 
-    .portfolio-slider {
-        width: 167px;
+    .portfolio {
+        padding-right: 83px;
     }
 
     .portfolio-slider-wide {
@@ -404,7 +458,6 @@
     .portfolio_slider_block {
         display: flex;
         column-gap: 16px;
-        /* padding-right: 156px; */
         position: relative;
         height: 350px;
     }
@@ -415,11 +468,12 @@
     }
 
     .portfolio-slider-btn-block {
-        padding-left: 30px;
+        padding-left: 0;
+        column-gap: 10px;
     }
 
     .portfolio-item-btn {
-      font-size: 14px;
+        font-size: 14px;
         padding-top: 9px;
         padding-bottom: 14px;
     }
@@ -430,7 +484,6 @@
         position: relative;
         height: 233px;
     }
-
 
     .portfolio-slider-line2 {
         position: absolute;
@@ -464,7 +517,6 @@
     .portfolio-slider-fon {
         padding-bottom: 0;
         height: 110px;
-
     }
 
     .portfolio-slider-fon {
@@ -481,7 +533,6 @@
         height: 30px;
     }
 
-
     .title-slide-portfolio, .text-slide-portfolio{
         font-size: 10px;
     }
@@ -492,8 +543,21 @@
         margin-bottom: 0;
     }
 
-    .portfolio-slider {
-        width: 122px;
+    .portfolio {
+        padding-left: 84px;
+        padding-right: 60px;
+    }
+
+    .portfolio-slider-only-item .portfolio-slider-fon {
+        height: 127px;
+        padding: 0 20px 13px;
+        border-radius: 5px;
+    }
+
+    .portfolio-slider-only-item a {
+        height: 127px;
+        display: block;
+        border-radius: 5px;
     }
 
     .portfolio-slider-wide {
@@ -503,7 +567,6 @@
     .portfolio_slider_block {
         display: flex;
         column-gap: 16px;
-        /* padding-right: 156px; */
         position: relative;
         height: 350px;
     }
@@ -532,9 +595,13 @@
 
     .portfolio_slider_block {
         display: flex;
-        column-gap: 16px;
+        column-gap: 10px;
         position: relative;
         height: 177px;
+    }
+
+    .portfolio-slider-btn-block {
+        column-gap: 10px;
     }
 
     .portfolio-slider-line2 {
@@ -553,9 +620,9 @@
 }
 
 @media only screen and (min-width:320px) and (max-width:767px) {
-  .portfolio-slider-none {
-      display: none;
-  }
+    .portfolio-slider-none {
+        display: none;
+    }
 
     .slider_portfolio_mobile {
         display: block;
@@ -615,7 +682,6 @@
         padding-left: 15px;
         padding-right: 28px;
     }
-
 
     .mobile-otziv-slider-fon-line {
         width: 2px;

@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Apollon home page</title>
+    <link rel="shortcut icon" href="img/logo-shortcut.png" type="image/x-icon">
     <!-- Link owl corusel -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -15,8 +16,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!-- Link swiper css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
-    <!-- Link for map -->
-    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
     <!-- Link my css -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
@@ -94,16 +93,6 @@
                     <span class="content content-anim-time1" >Язык</span>
                     <img src="img/meu_flag.png" alt="">
                 </a>
-<!--                <div class="language-choose-block">-->
-<!--                    <div class="language-change-block opacity-lang-block">-->
-<!--                        <a>-->
-<!--                            <img src="img/Flag-Armenia.webp" class="flag-img">-->
-<!--                        </a>-->
-<!--                        <a>-->
-<!--                            <img src="img/flag_us.png" class="flag-img">-->
-<!--                        </a>-->
-<!--                    </div>-->
-<!--                </div>-->
             </li>
         </ul>
     </nav>
@@ -215,20 +204,31 @@
                                       </div>
                                   </div>
                               </div>
-                              <div class="swiper-slide">Slide 2</div>
-                              <div class="swiper-slide">Slide 3</div>
-                              <div class="swiper-slide">Slide 4</div>
-                              <div class="swiper-slide">Slide 5</div>
-                              <div class="swiper-slide">Slide 6</div>
-                              <div class="swiper-slide">Slide 7</div>
-                              <div class="swiper-slide">Slide 8</div>
-                              <div class="swiper-slide">Slide 9</div>
+                              <div class="swiper-slide">
+                                <div class="header-slider-item-block">
+                                    <div class="header-slider-item-block-text-block">
+                                        <h1><span>Битрикс24</span></h1>
+                                        <div class="header-text-block">
+                                            <p>
+                                                Лицензия Битрикс24 - ключевой элемент эффективного использования платформы для бизнеса. Благодаря лицензии вы получаете доступ к широкому спектру функций и возможностей, позволяющих эффективно управлять командой, проектами и взаимодействовать с клиентами. Наши специалисты службы поддержки готовы пом...     
+                                            </p>
+                                        </div>
+                                        <button class="header-slider-item-btn">
+                                            Еще
+                                        </button>
+                                    </div>
+                                    <div class="header-slider-item-block-img-block">
+                                        <img src="img/slider_img2.png">
+                                    </div>
+                                </div>
+                              </div>
                           </div>
-                          <div>
+                          <div class="slider-header-btn-block">
                               <div class="swiper-button-next slider-header-next-btn  slider-next-btn slider-btn"></div>
                               <div class="swiper-button-prev slider-header-prev-btn  slider-prev-btn slider-btn"></div>
                           </div>
                       </div>
+                      
                   </div>
               </div>
               <div class="header-bottom-block">
@@ -254,7 +254,7 @@
                       <p>Уже 18 сертифицированных сотрудников</p>
                   </div>
               </div>
-          </header>
+         </header>
          <section class="portfolio">
              <h4 class="section-title portfolio-sec-title">Портфолио</h4>
              <div class="slider-portfolio-container portfolio-slider-none">
@@ -262,10 +262,10 @@
                      <img src="img/portdolio_line1.svg" alt="">
                  </div>
                  <div class="portfolio_slider_block">
-                     <div class="portfolio-slider portfolio_slider1_top_block portfolio-slider-wide portfolio-a-index">
+                     <div class="portfolio-slider portfolio_slider1_top_block  portfolio-a-index portfolio-slider-width2">
                          <div class="swiper-wrapper">
                              <div class="swiper-slide">
-                                 <a href="">
+                                 <a href=""  class="portfolio-slider-a">
                                      <img src="img/porfolio_slider_img1.png">
                                  </a>
                                  <div class="portfolio-slider-fon">
@@ -277,7 +277,7 @@
                                  </div>
                              </div>
                              <div class="swiper-slide">
-                                 <a href="">
+                                 <a href=""  class="portfolio-slider-a">
                                      <img src="img/slider1_portfolio_item2_img.jpg" />
                                  </a>
                                  <div class="portfolio_slider_fon">
@@ -292,10 +292,10 @@
                              </div>
                          </div>
                      </div>
-                     <div class="portfolio-slider portfolio_slider2_top_block portfolio-z-index1">
+                     <div class="portfolio-slider portfolio_slider2_top_block portfolio-z-index1 portfolio-slider-width1">
                          <div class="swiper-wrapper">
                              <div class="swiper-slide">
-                                 <a href="">
+                                 <a href=""  class="portfolio-slider-a">
                                      <img src="img/prtfolio_slider_img2.png" alt="">
                                  </a>
                                  <div class="portfolio-slider-fon">
@@ -307,7 +307,7 @@
                                  </div>
                              </div>
                              <div class="swiper-slide">
-                                 <a href="">
+                                 <a href=""  class="portfolio-slider-a">
                                      <img src="img/porfolio_slider2_item2_img.png" alt="">
                                  </a>
                                  <div class="portfolio-slider-fon">
@@ -320,10 +320,10 @@
                              </div>
                          </div>
                      </div>
-                     <div class="portfolio-slider portfolio_slider2_top_block portfolio-a-index">
+                     <div class="portfolio-slider portfolio_slider2_top_block portfolio-a-index portfolio-slider-width1">
                          <div class="swiper-wrapper">
                              <div class="swiper-slide">
-                                 <a href="">
+                                 <a href=""  class="portfolio-slider-a">
                                      <img src="img/portfolio_slider_img3.png" />
                                  </a>
                                  <div class="portfolio-slider-fon">
@@ -335,7 +335,7 @@
                                  </div>
                              </div>
                              <div class="swiper-slide">
-                                 <a href="">
+                                 <a href=""  class="portfolio-slider-a">
                                      <img src="img/portfolio_slider_img4.jpg" />
                                  </a>
                                  <div class="portfolio-slider-fon">
@@ -352,48 +352,44 @@
                          <button class="swiper-button-next1 slider-prev-btn slider-btn portfolio-slider-btn">
                          </button>
                          <button class="swiper-button-prev1 slider-next-btn slider-btn portfolio-slider-btn">
-
                          </button>
                      </div>
                  </div>
                  <div class="portfolio_slider_block portfolio-slider-block_bottom">
-                     <div class="portfolio-slider-only portfolio-slider-item height_only portfolio-a-index portfolio-z-index2 ">
-                         <div class="  portfolio-slider  portfolio_slider2_bottom_block portfolio-slider-only_btn portfolio-a-index">
-                             <div class="swiper-wrapper">
-                                 <div class="swiper-slide slider_height_size">
-                                     <a href="">
-                                         <img src="img/prtfolio_slider_img2.png" alt="">
-                                     </a>
-                                     <div class="portfolio-slider-fon">
-                                         <div class="portfolio-slider-fon-line"> </div>
-                                         <div class="portfolio-slider-fon-text">
-                                             <p class="title-slide-portfolio">Iketo</p>
-                                             <p class="text-slide-portfolio">Development</p>
-                                         </div>
+                     <div class="portfolio-slider portfolio_slider1_bottom_block  portfolio-slider-only portfolio-z-index1 portfolio-slider-width1">
+                         <div class="swiper-wrapper">
+                             <div class="swiper-slide portfolio-slider-only-item">
+                                 <a href="" >
+                                     <img src="img/porfolio_slider_img1.png">
+                                 </a>
+                                 <div class="portfolio-slider-fon">
+                                     <div class="portfolio-slider-fon-line"> </div>
+                                     <div class="portfolio-slider-fon-text">
+                                         <p class="title-slide-portfolio">Iketo</p>
+                                         <p class="text-slide-portfolio">Development</p>
                                      </div>
-
                                  </div>
-                                 <div class="swiper-slide">
-                                     <a href="">
-                                         <img src="img/porfolio_slider2_item2_img.png" alt="">
-                                     </a>
-                                     <div class="portfolio-slider-fon">
-                                         <div class="portfolio-slider-fon-line"> </div>
-                                         <div class="portfolio-slider-fon-text">
-                                             <p class="title-slide-portfolio">Iketo</p>
-                                             <p class="text-slide-portfolio">Development</p>
-                                         </div>
+                                <button class="portfolio-item-btn">Посмотреть все</button>
+                             </div>
+                             <div class="swiper-slide portfolio-slider-only-item">
+                                 <a href="">
+                                     <img src="img/slider1_portfolio_item2_img.jpg" />
+                                 </a>
+                                 <div class="portfolio-slider-fon">
+                                     <div class="portfolio-slider-fon-line"> </div>
+                                     <div class="portfolio-slider-fon-text">
+                                         <p class="title-slide-portfolio">Iketo</p>
+                                         <p class="text-slide-portfolio">Development</p>
                                      </div>
                                  </div>
                              </div>
-
                          </div>
-                         <button class="portfolio-item-btn">Посмотреть все</button>
+                         <h1>as</h1>
                      </div>
-                     <div class="portfolio-slider portfolio_slider2_bottom_block portfolio-z-index1">
+                     <div class="portfolio-slider portfolio_slider2_bottom_block portfolio-z-index1 portfolio-slider-width1">
                          <div class="swiper-wrapper">
                              <div class="swiper-slide">
-                                 <a href="">
+                                 <a href=""  class="portfolio-slider-a">
                                      <img src="img/portfolio_slider_img3.png" />
                                  </a>
                                  <div class="portfolio-slider-fon">
@@ -405,7 +401,7 @@
                                  </div>
                              </div>
                              <div class="swiper-slide">
-                                 <a href="">
+                                 <a href=""  class="portfolio-slider-a">
                                      <img src="img/portfolio_slider_img4.jpg" />
                                  </a>
                                  <div class="portfolio-slider-fon">
@@ -418,10 +414,10 @@
                              </div>
                          </div>
                      </div>
-                     <div class="portfolio-slider portfolio_slider1_bottom_block portfolio-slider-wide portfolio-z-index1">
+                     <div class="portfolio-slider portfolio_slider1_bottom_block  portfolio-z-index1 portfolio-slider-width2">
                          <div class="swiper-wrapper">
                              <div class="swiper-slide">
-                                 <a href="">
+                                 <a href="" class="portfolio-slider-a">
                                      <img src="img/porfolio_slider_img1.png">
                                  </a>
                                  <div class="portfolio-slider-fon">
@@ -431,9 +427,10 @@
                                          <p class="text-slide-portfolio">Development</p>
                                      </div>
                                  </div>
+                                 <button>22</button>
                              </div>
                              <div class="swiper-slide">
-                                 <a href="">
+                                 <a href="" class="portfolio-slider-a">
                                      <img src="img/slider1_portfolio_item2_img.jpg" />
                                  </a>
                                  <div class="portfolio-slider-fon">
@@ -443,6 +440,7 @@
                                          <p class="text-slide-portfolio">Development</p>
                                      </div>
                                  </div>
+                                 <button>22</button>
                              </div>
                          </div>
                      </div>
@@ -808,61 +806,61 @@
                                  <div class="swiper-slide partner-slider-item ">
                                      <img src="img/partner_img1.png">
                                      <div class="text-block-partner">
-                                         <p>Hello name</p>
+                                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, iusto!</p>
                                      </div>
                                  </div>
                                  <div class="swiper-slide partner-slider-item">
                                      <img src="img/partner_img2.jpg">
                                      <div class="text-block-partner">
-                                         <p>Hello name</p>
+                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, assumenda!</p>
                                      </div>
                                  </div>
                                  <div class="swiper-slide partner-slider-item">
                                      <img src="img/partner_img3.jpg">
                                      <div class="text-block-partner">
-                                         <p>Hello name</p>
+                                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, quidem.</p>
                                      </div>
                                  </div>
                                  <div class="swiper-slide partner-slider-item">
                                      <img src="img/partner_img4.jpg">
                                      <div class="text-block-partner">
-                                         <p>Hello name</p>
+                                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, hic.</p>
                                      </div>
                                  </div>
                                  <div class="swiper-slide partner-slider-item">
                                      <img src="img/partner_img5.jpg">
                                      <div class="text-block-partner">
-                                         <p>Hello name</p>
+                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, magni?</p>
                                      </div>
                                  </div>
                                  <div class="swiper-slide partner-slider-item">
                                      <img src="img/partner_img2.jpg">
                                      <div class="text-block-partner">
-                                         <p>Hello name</p>
+                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, magnam.</p>
                                      </div>
                                  </div>
                                  <div class="swiper-slide partner-slider-item">
                                      <img src="img/partner_img1.png">
                                      <div class="text-block-partner">
-                                         <p>Hello name</p>
+                                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, iusto!</p>
                                      </div>
                                  </div>
                                  <div class="swiper-slide partner-slider-item">
                                      <img src="img/partner_img5.jpg">
                                      <div class="text-block-partner">
-                                         <p>Hello name</p>
+                                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto, ab.</p>
                                      </div>
                                  </div>
                                  <div class="swiper-slide partner-slider-item">
                                      <img src="img/partner_img3.jpg">
                                      <div class="text-block-partner">
-                                         <p>Hello name</p>
+                                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro, reprehenderit.</p>
                                      </div>
                                  </div>
                                  <div class="swiper-slide partner-slider-item">
                                      <img src="img/partner_img1.png">
                                      <div class="text-block-partner">
-                                         <p>Hello name</p>
+                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, laborum.</p>
                                      </div>
                                  </div>
                              </div>
@@ -874,61 +872,61 @@
                                  <div class="swiper-slide partner-slider-item">
                                      <img src="img/partner_img1.png">
                                      <div class="text-block-partner">
-                                         <p>Hello name</p>
+                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, vero?</p>
                                      </div>
                                  </div>
                                  <div class="swiper-slide partner-slider-item">
                                      <img src="img/partner_img2.jpg">
                                      <div class="text-block-partner">
-                                         <p>Hello name</p>
+                                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, inventore.</p>
                                      </div>
                                  </div>
                                  <div class="swiper-slide partner-slider-item">
                                      <img src="img/partner_img3.jpg">
                                      <div class="text-block-partner">
-                                         <p>Hello name</p>
+                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, saepe.</p>
                                      </div>
                                  </div>
                                  <div class="swiper-slide partner-slider-item">
                                      <img src="img/partner_img4.jpg">
                                      <div class="text-block-partner">
-                                         <p>Hello name</p>
+                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, vel.</p>
                                      </div>
                                  </div>
                                  <div class="swiper-slide partner-slider-item">
                                      <img src="img/partner_img5.jpg">
                                      <div class="text-block-partner">
-                                         <p>Hello name</p>
+                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, tempore.</p>
                                      </div>
                                  </div>
                                  <div class="swiper-slide partner-slider-item">
                                      <img src="img/partner_img2.jpg">
                                      <div class="text-block-partner">
-                                         <p>Hello name</p>
+                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, aut!</p>
                                      </div>
                                  </div>
                                  <div class="swiper-slide partner-slider-item">
                                      <img src="img/partner_img1.png">
                                      <div class="text-block-partner">
-                                         <p>Hello name</p>
+                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, labore.</p>
                                      </div>
                                  </div>
                                  <div class="swiper-slide partner-slider-item">
                                      <img src="img/partner_img5.jpg">
                                      <div class="text-block-partner">
-                                         <p>Hello name</p>
+                                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, fuga.</p>
                                      </div>
                                  </div>
                                  <div class="swiper-slide partner-slider-item">
                                      <img src="img/partner_img3.jpg">
                                      <div class="text-block-partner">
-                                         <p>Hello name</p>
+                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, quia!</p>
                                      </div>
                                  </div>
                                  <div class="swiper-slide partner-slider-item">
                                      <img src="img/partner_img1.png">
                                      <div class="text-block-partner">
-                                         <p>Hello name</p>
+                                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, rerum.</p>
                                      </div>
                                  </div>
                              </div>
@@ -940,61 +938,61 @@
                                  <div class="swiper-slide partner-slider-item">
                                      <img src="img/partner_img1.png">
                                      <div class="text-block-partner">
-                                         <p>Hello name</p>
+                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, molestias?</p>
                                      </div>
                                  </div>
                                  <div class="swiper-slide partner-slider-item">
                                      <img src="img/partner_img2.jpg">
                                      <div class="text-block-partner">
-                                         <p>Hello name</p>
+                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, dolores!</p>
                                      </div>
                                  </div>
                                  <div class="swiper-slide partner-slider-item">
                                      <img src="img/partner_img3.jpg">
                                      <div class="text-block-partner">
-                                         <p>Hello name</p>
+                                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, corporis?</p>
                                      </div>
                                  </div>
                                  <div class="swiper-slide partner-slider-item">
                                      <img src="img/partner_img4.jpg">
                                      <div class="text-block-partner">
-                                         <p>Hello name</p>
+                                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, facere.</p>
                                      </div>
                                  </div>
                                  <div class="swiper-slide partner-slider-item">
                                      <img src="img/partner_img5.jpg">
                                      <div class="text-block-partner">
-                                         <p>Hello name</p>
+                                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, error?</p>
                                      </div>
                                  </div>
                                  <div class="swiper-slide partner-slider-item">
                                      <img src="img/partner_img2.jpg">
                                      <div class="text-block-partner">
-                                         <p>Hello name</p>
+                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, natus.</p>
                                      </div>
                                  </div>
                                  <div class="swiper-slide partner-slider-item">
                                      <img src="img/partner_img1.png">
                                      <div class="text-block-partner">
-                                         <p>Hello name</p>
+                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, quam!</p>
                                      </div>
                                  </div>
                                  <div class="swiper-slide partner-slider-item">
                                      <img src="img/partner_img5.jpg">
                                      <div class="text-block-partner">
-                                         <p>Hello name</p>
+                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, ipsam.</p>
                                      </div>
                                  </div>
                                  <div class="swiper-slide partner-slider-item">
                                      <img src="img/partner_img3.jpg">
                                      <div class="text-block-partner">
-                                         <p>Hello name</p>
+                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, error?</p>
                                      </div>
                                  </div>
                                  <div class="swiper-slide partner-slider-item">
                                      <img src="img/partner_img1.png">
                                      <div class="text-block-partner">
-                                         <p>Hello name</p>
+                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quisquam.</p>
                                      </div>
                                  </div>
                              </div>
@@ -1282,6 +1280,7 @@
      </div>
      <footer id="footer">
          <div id="map">
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1067.8764760302874!2d44.5222026263943!3d40.79696731241952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4041bd2319dd5e27%3A0x34c86253197945ba!2sApollonLab!5e0!3m2!1sru!2sam!4v1693852349068!5m2!1sru!2sam" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
          </div>
          <div class="footer-block">
              <div class="footer-block-item footer-mobile-class company-list-footer">

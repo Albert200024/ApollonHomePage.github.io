@@ -369,30 +369,5 @@ $(document).ready(function (){
 
 
     });
-
-    //================================================== Map function ==================================================//
-    $(document).ready(function () {
-        ymaps.ready(init);
-        function init() {
-            var myMap = new ymaps.Map('map', {
-                center: [40.78041604070807, 44.577514311461435],
-                zoom: 13,
-                controls: []
-            }, {
-                searchControlProvider: 'yandex#search'
-            });
-            let myPlacemark = new ymaps.Placemark([40.78041604070807, 44.577514311461435], {
-                balloonContent: 'Apollon lab',
-                preset: 'islands#blackStretchyIcon',
-            }, {
-                iconLayout: 'default#imageWithContent',
-                iconImageHref: 'img/location.svg',
-                iconImageSize: [39, 58],
-                iconImageOffset: [-24, -24],
-                iconContentOffset: [15, 15],
-                hideIconOnBalloonOpen: false
-            });
-            myMap.geoObjects.add(myPlacemark)
-        }
-    })
+    
 })
